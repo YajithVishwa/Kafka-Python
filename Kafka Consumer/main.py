@@ -3,7 +3,7 @@ import json
 import pymongo
 
 def consume_message():
-    mongo_url ="mongodb://moharajan:Selvi%40Moharajan@localhost:27017/?authMechanism=DEFAULT"
+    mongo_url ="mongodb://admin:password@localhost:27017/?authMechanism=DEFAULT"
 
     myclient = pymongo.MongoClient(mongo_url)
     mydb = myclient['kafka-data']

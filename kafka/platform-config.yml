@@ -9,13 +9,13 @@ database: # Database credentials, must match what you have in the docker-compose
   password: "change_me"
 
 admin: # Define the local admin for the initial setup (mandatory)
-  email: yajithvishwa2001@gmail.com
-  password: vishwa2001
+  email: admin@gmail.com
+  password: admin
 
 auth: # Define a local user (optional)
   local-users:
-    - email: yajithvishwa2001@gmail.com
-      password: vishwa2001
+    - email: admin@gmail.com
+      password: admin
 
 monitoring: # Monitoring settings (optional)
   cortex-url: http://conduktor-monitoring:9009/
